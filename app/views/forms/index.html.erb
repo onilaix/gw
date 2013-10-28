@@ -1,0 +1,33 @@
+
+<h1>Gateway Forms v1.0</h1>
+
+
+<div> 
+<%= form_tag({:controller => "forms"}, :method => "get") do %>
+
+   <p>Please, select a function: <%= select_tag(:function, options_for_select(UrlConfig::URL_LIST.keys.sort.map { |key|
+   	                                               [key, key]}, session[:function]),
+   	                                               {:prompt   => "Please select a function",
+   	                                               :onchange => "this.form.submit();"}
+   	             ) %></p>
+
+<% end %> 
+</div>
+<br>
+
+<hr>
+<h2><%= session[:function] %></h2>
+<%= form_tag({:controller => "forms", :action=> "post"}, :method => "post") do %>
+   <%= render UrlConfig::URL_LIST[session[:function]][:partial] %>
+<% end %>
+
+<br>
+
+<hr>
+<h4>Raw Output</h4>
+<p><%= @ret_message.to_s %></p>
+<br>
+
+<hr>
+<h4>Formatted Output</h4>
+<pre><%= @formatted_message.to_s %></pre>

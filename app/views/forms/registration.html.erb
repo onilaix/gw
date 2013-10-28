@@ -1,0 +1,6 @@
+<%= render 'common_fields' %>
+<div><span class="label">Email:</span><input type="text" size="20" name="Email" value="<%= session[:email] %>"></div>
+<div><span class="label">FlagMark:</span><input type="text" size="20" name="FlagMark" value="<%= session["FlagMark"] %>"><span>&nbsp;(0 = non selezionato, 1 = selezionato)</span></div>
+<div><span class="label">FlagPubl:</span><input type="text" size="20" name="FlagPubl" value="<%= session["FlagPubl"] %>"><span>&nbsp;(0 = non selezionato, 1 = selezionato)</span></div>
+<div><span class="label">Mail Verified:</span><input type="text" size="20" name="MailVerified" value="<%= session["MailVerified"] %>"><span>&nbsp;(0= non verificata, 1= verificata)</span></div>
+<div><span class="label">&nbsp;</span><input type="submit" value="SUBMIT"></div>

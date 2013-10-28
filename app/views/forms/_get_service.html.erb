@@ -1,0 +1,18 @@
+<%= render 'common_fields' %>
+<div class="container">
+	<div class="field-column">
+		<span class="label">Service Id:</span><input type="text" size="20" name="SVC_ID" value="<%= session["SVC_ID"] %>">
+	</div>
+	<div class="caption-column">
+		<p>Parametro opzionale - valori possibili:</p>
+		<ul>
+			<li>1: GPRS Nazionale</li>
+			<li>2: Numerazioni Premium</li>
+			<li>3: Trasparenza Tariffaria</li>
+		</ul>
+	</div>
+</div>
+<div>
+	<span class="label">&nbsp;</span>
+	<input type="submit" value="SUBMIT">
+</div>

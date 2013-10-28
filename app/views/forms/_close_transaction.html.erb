@@ -1,0 +1,18 @@
+<%= render 'common_fields' %>
+<div><span class="label">TID:</span><input type="text" size="20" name="TID" value="<%= session["TID"] %>"></div>
+<div class="container">
+	<div class="field-column">
+      <span class="label">Taglio:</span><input type="text" size="20" name="Taglio" value="<%= session["Taglio"] %>"></div>
+   <div class="caption-column">
+      <span>(formato = nn.nn)</span>
+   </div>
+</div>
+<div class="container">
+	<div class="field-column">
+		<span class="label">Do_Recharge:</span><input type="text" size="20" name="Do_Recharge" value="<%= session["Do_Recharge"] %>">
+	</div>
+    <div class="caption-column">
+		<span>(valori possiibli = 0, 1)</span>
+    </div>
+</div>   
+<div><span class="label">&nbsp;</span><input type="submit" value="SUBMIT"></div>

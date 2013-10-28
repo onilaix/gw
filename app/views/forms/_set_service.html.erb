@@ -1,0 +1,15 @@
+<%= render 'common_fields' %>
+<div><span class="label">Service Id:</span><input type="text" size="20" name="SVC_ID" value="<%= session["SVC_ID"] %>"></div>
+
+<div class="container">
+	<div class="field-column">      
+       <span class="label">Service Id:</span><input type="text" size="20" name="AZIONE" value="<%= session["AZIONE"] %>"></div>      
+    <div class="caption-column">
+    <p>Valori possibili:</p>
+      <ul>
+        <li>ATTIVA</li>
+        <li>DISATTIVA</li>
+      </ul>
+   </div>      
+</div>      
+<div><span class="label">&nbsp;</span><input type="submit" value="SUBMIT"></div>

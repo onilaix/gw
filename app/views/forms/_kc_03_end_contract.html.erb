@@ -1,0 +1,24 @@
+<div><span class="label">Username:</span><input type="text" size="20" name="UserName" value="<%= session["UserName"] %>"></div>
+<div><span class="label">MSISDN:</span><input type="text" size="20" name="MSISDN" value="<%= session["MSISDN"] %>"></div>
+<div><span class="label">Cod.Fisc:</span><input type="text" size="20" name="Cod_Fiscale" value="<%= session["Cod_Fiscale"] %>"></div>
+<div><span class="label">I.P.:</span><input type="text" size="20" name="Remote_ip_address" value="<%= session["Remote_ip_address"] %>"></div>
+<div><span class="label">ContractNumber:</span><input type="text" size="20" name="ContractNumber" value="<%= session["ContractNumber"] %>"></div>
+<div><span class="label">Card Number:</span><input type="text" size="20" name="cardNumber" value="<%= session["cardNumber"] %>"></div>
+<div class="container">
+	<div class="field-column">
+      <span class="label">Card Exp Data:</span><input type="text" size="20" name="cardEndDate" value="<%= session["cardEndDate"] %>">
+    </div>
+	<div class="caption-column">
+		(formato: "YYYYMM")
+	</div>
+</div>    
+<div><span class="label">Card Brand:</span><input type="text" size="20" name="cardTypo" value="<%= session["cardTypo"] %>"></div>
+<div><span class="label">Card Owner Name:</span><input type="text" size="20" name="cardOwnerName" value="<%= session["cardOwnerName"] %>"></div>
+<div><span class="label">Card Owner Surname:</span><input type="text" size="20" name="cardOwnerSurname" value="<%= session["cardOwnerSurname"] %>"></div>
+<div><span class="label">Esito:</span><input type="text" size="20" name="esito" value="<%= session["esito"] %>"></div>
+<div><span class="label">Messaggio:</span><input type="text" size="20" name="messaggio" value="<%= session["messaggio"] %>"></div>
+<div><span class="label">Email:</span><input type="text" size="20" name="email" value="<%= session["email"] %>"></div>
+<div><span class="label">Transaction Code:</span><input type="text" size="20" name="codTrans" value="<%= session["codTrans"] %>"></div>
+
+<div><span class="label">&nbsp;</span><input type="submit" value="SUBMIT"></div>
+

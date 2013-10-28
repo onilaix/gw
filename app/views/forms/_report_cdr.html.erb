@@ -1,0 +1,18 @@
+<%= render 'common_fields' %>
+<div class="container">
+	<div class="field-column">
+<span class="label">Date From:</span><input type="text" size="20" name="DateFrom" value="<%= session["DateFrom"] %>"></div>
+	<div class="caption-column">
+		(formato data = gg/mm/aaaa o aaaammgg?)
+	</div>
+</div>
+<div class="container">
+	<div class="field-column">
+<span class="label">Date To:</span><input type="text" size="20" name="DateTo" value="<%= session["DateTo"] %>"></div>
+	<div class="caption-column">
+		(formato data = gg/mm/aaaa o aaaammgg?)
+	</div>
+</div>
+<div><span class="label">Product Id:</span><input type="text" size="20" name="ProductID" value="<%= session["ProductID"] %>"></div>
+<div><span class="label">Type:</span><input type="text" size="20" name="Type" value="0"></div>
+<div><span class="label">&nbsp;</span><input type="submit" value="SUBMIT"></div>

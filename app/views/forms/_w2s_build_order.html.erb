@@ -1,0 +1,13 @@
+<div class="container">
+	<div class="field-column">
+      <span class="label">Action Type:</span><input type="text" size="20" name="actionType" value="<%= session["actionType"] %>">
+    </div>
+	<div class="caption-column">
+		<span>&nbsp;(NEWSUB = Attivazione AL, NEWMNP = Attivazione MNP)</span>
+	</div>
+</div>
+<div><span class="label">Cos ID:</span><input type="text" size="20" name="cosid" value="<%= session["cosid"] %>"></div>
+<div><span class="label">Current Promos:</span><input type="text" size="20" name="promotionList" value="<%= session["promotionList"] %>"></div>
+<div><span class="label">Promo Tag:</span><input type="text" size="20" name="promoTag" value="<%= session["promoTag"] %>"></div>
+<div><span class="label">I.P.:</span><input type="text" size="20" name="Remote_ip_address" value="<%= session["Remote_ip_address"] %>"></div>
+<div><span class="label">&nbsp;</span><input type="submit" value="SUBMIT"></div>

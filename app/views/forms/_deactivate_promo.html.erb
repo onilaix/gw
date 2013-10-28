@@ -1,0 +1,16 @@
+<%= render 'common_fields' %>
+<div><span class="label">PromoID:</span><input type="text" size="20" name="PromoID" value="<%= session["PromoID"] %>"></div>
+<div class="container">
+	<div class="field-column">
+		<span class="label">Deactivation Method</span><input type="text" size="20" name="DeActivation_Method" value="<%= session["DeActivation_Method"] %>">
+	</div>
+	<div class="caption-column">
+		<p>Valori possibili:</p>
+		<ul>
+			<li>DISIMM: disattivazione immediata</li>
+			<li>DISSCH: disattivazione schedulata</li>
+		</ul>
+	</div>
+</div>
+
+<div><span class="label">&nbsp;</span><input type="submit" value="SUBMIT"></div>

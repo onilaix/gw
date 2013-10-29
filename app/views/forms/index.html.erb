@@ -1,5 +1,5 @@
 
-<h1>Gateway Forms v1.0</h1>
+<h1>Gateway Forms v1.1</h1>
 
 
 <div> 
@@ -24,6 +24,7 @@
 <br>
 
 <hr>
+<% if request.post? %>
 <h4>Raw Output</h4>
 <p><%= @ret_message.to_s %></p>
 <br>
@@ -31,3 +32,4 @@
 <hr>
 <h4>Formatted Output</h4>
 <pre><%= @formatted_message.to_s %></pre>
+<% end %>

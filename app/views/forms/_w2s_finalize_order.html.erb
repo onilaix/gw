@@ -1,0 +1,67 @@
+<%= render 'common_fields' %>
+
+<div><span class="label">Order TID:</span><input type="text" size="20" name="OrderTID" value="<%= session["OrderTID"] %>"></div>
+<div><span class="label">Firstname:</span><input type="text" size="20" name="Firstname:" value="<%= session["Firstname:"] %>"></div>
+<div><span class="label">Lastname:</span><input type="text" size="20" name="Lastname" value="<%= session["Lastname"] %>"></div>
+<div class="container">
+	<div class="field-column">
+		<span class="label">BirthDate:</span><input type="text" size="20" name="BirthDate" value="<%= session["BirthDate"] %>">
+	</div>
+	<div class="caption-column">
+		(formato AAAAMMGG)
+	</div>
+</div>
+<div><span class="label">Gender:</span><input type="text" size="20" name="Gender" value="<%= session["Gender"] %>"></div>
+
+<div><span class="label">VatCode:</span><input type="text" size="20" name="VatCode" value="<%= session["VatCode"] %>"></div>
+<div><span class="label">CompanyName:</span><input type="text" size="20" name="CompanyName" value="<%= session["CompanyName"] %>"></div>
+
+<div><span class="label">Birthplacecountry:</span><input type="text" size="20" name="Birthplacecountry" value="<%= session["Birthplacecountry"] %>"></div>
+<div><span class="label">BirthPlaceCode:</span><input type="text" size="20" name="BirthPlaceCode" value="<%= session["BirthPlaceCode"] %>"></div>
+<div><span class="label">BirthPlaceCity:</span><input type="text" size="20" name="BirthPlaceCity" value="<%= session["BirthPlaceCity"] %>"></div>
+<div><span class="label">BirthPlaceState:</span><input type="text" size="20" name="BirthPlaceState" value="<%= session["BirthPlaceState"] %>"></div>
+
+<hr>
+<div><span class="label">Phone:</span><input type="text" size="20" name="Phone" value="<%= session["Phone"] %>"></div>
+<div><span class="label">Fax:</span><input type="text" size="20" name="Fax" value="<%= session["Fax"] %>"></div>
+<div><span class="label">Email:</span><input type="text" size="20" name="Email" value="<%= session["Email"] %>"></div>
+
+
+<div><span class="label">IdDocType:</span><input type="text" size="20" name="IdDocType" value="<%= session["IdDocType"] %>"></div>
+<div><span class="label">IdDocNumber</span><input type="text" size="20" name="IdDocType" value="<%= session["IdDocNumber"] %>"></div>
+<div class="container">
+	<div class="field-column">
+		<span class="label">IdDocDate:</span><input type="text" size="20" name="IdDocDate" value="<%= session["IdDocDate"] %>">
+	</div>
+	<div class="caption-column">
+		(formato AAAAMMGG)
+	</div>
+</div>
+<div><span class="label">PrivacySTMT1:</span><input type="text" size="20" name="PrivacySTMT1" value="<%= session["PrivacySTMT1"] %>"></div>
+<div><span class="label">PrivacySTMT2:</span><input type="text" size="20" name="PrivacySTMT2" value="<%= session["PrivacySTMT2"] %>"></div>
+
+<hr>
+<div><span class="label">MainPlaceType:</span><input type="text" size="20" name="MainPlaceType" value="<%= session["MainPlaceType"] %>"></div>
+<div><span class="label">MainAddress:</span><input type="text" size="20" name="MainAddress" value="<%= session["MainAddress"] %>"></div>
+<div><span class="label">MainStreetNumber:</span><input type="text" size="20" name="MainStreetNumber" value="<%= session["MainStreetNumber"] %>"></div>
+<div><span class="label">MainCityCode:</span><input type="text" size="20" name="MainCityCode" value="<%= session["MainCityCode"] %>"></div>
+<div><span class="label">MainCity:</span><input type="text" size="20" name="MainCity" value="<%= session["MainCity"] %>"></div>
+<div><span class="label">MainStateAddress:</span><input type="text" size="20" name="MainStateAddress" value="<%= session["MainStateAddress"] %>"></div>
+<div><span class="label">MainCountry:</span><input type="text" size="20" name="MainCountry" value="<%= session["MainCountry"] %>"></div>
+<div><span class="label">MainZIP:</span><input type="text" size="20" name="MainZIP" value="<%= session["MainZIP"] %>"></div>
+
+<hr>
+<div><span class="label">SecPlaceType:</span><input type="text" size="20" name="SecPlaceType" value="<%= session["SecPlaceType"] %>"></div>
+<div><span class="label">SecAddress:</span><input type="text" size="20" name="SecAddress" value="<%= session["SecAddress"] %>"></div>
+<div><span class="label">SecStreetNumber:</span><input type="text" size="20" name="SecStreetNumber" value="<%= session["SecStreetNumber"] %>"></div>
+<div><span class="label">SecCityCode:</span><input type="text" size="20" name="SecCityCode" value="<%= session["SecCityCode"] %>"></div>
+<div><span class="label">SecCity:</span><input type="text" size="20" name="SecCity" value="<%= session["SecCity"] %>"></div>
+<div><span class="label">SecStateAddress:</span><input type="text" size="20" name="SecStateAddress" value="<%= session["SecStateAddress"] %>"></div>
+<div><span class="label">SecCountry:</span><input type="text" size="20" name="SecCountry" value="<%= session["SecCountry"] %>"></div>
+<div><span class="label">SecZIP:</span><input type="text" size="20" name="SecZIP" value="<%= session["SecZIP"] %>"></div>
+<hr>
+<div><span class="label">IsMember:</span><input type="text" size="20" name="IsMember" value="<%= session["IsMember"] %>"></div>
+<div><span class="label">MemberCardNumber:</span><input type="text" size="20" name="MemberCardNumber" value="<%= session["MemberCardNumber"] %>"></div>
+<div><span class="label">MemberBarCodeNumber:</span><input type="text" size="20" name="MemberBarCodeNumber" value="<%= session["MemberBarCodeNumber"] %>"></div>
+
+<div><span class="label">&nbsp;</span><input type="submit" value="SUBMIT"></div>

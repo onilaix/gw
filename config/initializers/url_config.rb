@@ -109,6 +109,10 @@ class UrlConfig
                         :url => "http://10.155.0.42/MVNOCareGateway/W2S/SaveOrder.aspx" ,
                         :partial => "w2s_save_order"
                       },
+    "W2S FinalizeOrder" => { 
+                        :url => "http://10.155.0.42/MVNOCareGateway/W2S/FinalizeOrder.aspx" ,
+                        :partial => "w2s_finalize_order"
+                      },                      
     "W2S VerifyOrderHint" => { 
                         :url => "http://10.155.0.42/MVNOCareGateway/W2S/VerifyOrderHint.aspx" ,
                         :partial => "w2s_verify_order_hint"

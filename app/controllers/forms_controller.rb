@@ -63,7 +63,7 @@ class FormsController < ApplicationController
     session["cardTypo"]  ||= "VISA"
     session["esito"]  ||= "OK"
     session["config"]  ||= "{'CONFIGs':{'CONFIG':[{'MSISDN':'3311325172','SERVICE_ID':'AUT','FREQUENCY':'14','MAX_AMOUNT':'150','AMOUNT':'5','TYPOLOGY':'1'},{'MSISDN':'3311350121','SERVICE_ID':'RIC','FREQUENCY':'0','MAX_AMOUNT':'500','AMOUNT':'5','TYPOLOGY':'1'}]}}"
-    
+    session["RamVATCode"]  ||= "17017420505" 
   end
 
   def save_form_data

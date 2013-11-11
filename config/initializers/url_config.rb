@@ -69,10 +69,6 @@ class UrlConfig
                         :url => "http://10.155.0.42/MVNOCareGateway/Auth/Login.aspx" ,
                         :partial => "login"
                       },
-   "Get RAM Customer Info" => { 
-                        :url => "http://10.155.0.42/MVNOCareGateway/RAM/GetCustomerInfo.aspx" ,
-                        :partial => "get_ram_customer_info"
-                      },                                                                        
    "Recharge by PIN" =>{ 
                         :url => "http://10.155.0.42/MVNOCareGateway/Recharge/CareRechargeWithPIN.aspx" ,
                         :partial => "recharge_by_pin"
@@ -133,15 +129,42 @@ class UrlConfig
                         :url => "http://10.155.0.42/MVNOCareGateway/Recharge/CfgContract.aspx" ,
                         :partial => "kc_04_cfg_contract"
                       },
-    "KC_05 Del Contract" => { 
-                        :url => "http://10.155.0.42/MVNOCareGateway/Recharge/DeleteContract.aspx" ,
-                        :partial => "kc_05_del_contract"
+    "KC_05 Replace Contract" => { 
+                        :url => "http://10.155.0.42/MVNOCareGateway/Recharge/ReplaceContract.aspx" ,
+                        :partial => "kc_05_replace_contract"
                       },
-    "KC_06 Recharge" => { 
+    "KC_06 Del Contract" => { 
+                        :url => "http://10.155.0.42/MVNOCareGateway/Recharge/DeleteContract.aspx" ,
+                        :partial => "kc_06_del_contract"
+                      },
+    "KC_07 Recharge" => { 
                         :url => "http://10.155.0.42/MVNOCareGateway/Recharge/KCRecharge.aspx" ,
-                        :partial => "kc_06_recharge"
-                      }
-                                               
+                        :partial => "kc_07_recharge"
+                      },
+   "RAM_01 Get Customer Info" => { 
+                        :url => "http://10.155.0.42/MVNOCareGateway/RAM/GetCustomerInfo.aspx" ,
+                        :partial => "ram_get_customer_info"
+                      },
+   "RAM_02 Begin Contract" => { 
+                        :url => "http://10.155.0.42/MVNOCareGateway/RAM/BeginContract.aspx" ,
+                        :partial => "ram_begin_contract"
+                      },
+   "RAM_03 End Contract" => { 
+                        :url => "http://10.155.0.42/MVNOCareGateway/RAM/EndContract.aspx" ,
+                        :partial => "ram_end_contract"
+                      },                                               
+   "RAM_04 Cfg Contract" => { 
+                        :url => "http://10.155.0.42/MVNOCareGateway/RAM/CfgContract.aspx" ,
+                        :partial => "ram_cfg_contract"
+                      },
+   "RAM_05 RAM Top Up" => { 
+                        :url => "http://10.155.0.42/MVNOCareGateway/RAM/TopUp.aspx" ,
+                        :partial => "ram_top_up"
+                      },
+   "CUT Replace Contract" => { 
+                        :url => "http://10.155.0.42/MVNOCareGateway/Recharge/CUT/ReplaceContractCUT.aspx" ,
+                        :partial => "cut_replace_contract"
+                      },                                                                   
 
   }
   

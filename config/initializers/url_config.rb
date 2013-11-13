@@ -165,6 +165,11 @@ class UrlConfig
                         :url => "http://10.155.0.42/MVNOCareGateway/Recharge/CUT/ReplaceContractCUT.aspx" ,
                         :partial => "cut_replace_contract"
                       },                                                                   
+   "Get Wallet" => { 
+                        :url => "http://10.155.0.42/MVNOCareGateway/Subscriber/Wallet.aspx" ,
+                        :partial => "wallet"
+                      }                                                                   
+
 
   }
   

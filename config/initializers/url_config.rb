@@ -137,7 +137,7 @@ class UrlConfig
                         :url => "http://10.155.0.42/MVNOCareGateway/Recharge/DeleteContract.aspx" ,
                         :partial => "kc_06_del_contract"
                       },
-    "KC_07 Recharge" => { 
+    "Web Recharge" => { 
                         :url => "http://10.155.0.42/MVNOCareGateway/Recharge/KCRecharge.aspx" ,
                         :partial => "kc_07_recharge"
                       },

@@ -1,6 +1,14 @@
 class UrlConfig
   
   URL_LIST = {
+    "Associate SIM" => { 
+                        :url => "hhttp://10.155.0.42/MVNOCareGateway/Auth/AssociateSIM.aspx" ,
+                        :partial => "associate_sim"
+                      },
+    "Activate Promo" => { 
+                        :url => "http://10.155.0.42/MVNOCareGateway/Promotions/DoPromoActivation.aspx" ,
+                        :partial => "activate_promo"
+                      },
     "Get Customer" => { 
                         :url => "http://10.155.0.42/MVNOCareGateway/Customer/GetCustomer.aspx" ,
                         :partial => "get_customer"
@@ -137,7 +145,7 @@ class UrlConfig
                         :url => "http://10.155.0.42/MVNOCareGateway/Recharge/DeleteContract.aspx" ,
                         :partial => "kc_06_del_contract"
                       },
-    "Web Recharge" => { 
+    "KC_07 Ricarica Facile" => { 
                         :url => "http://10.155.0.42/MVNOCareGateway/Recharge/KCRecharge.aspx" ,
                         :partial => "kc_07_recharge"
                       },
@@ -168,8 +176,11 @@ class UrlConfig
    "Get Wallet" => { 
                         :url => "http://10.155.0.42/MVNOCareGateway/Subscriber/Wallet.aspx" ,
                         :partial => "wallet"
-                      }                                                                   
-
+                      },                                                                   
+   "Send SMS" => { 
+                        :url => "http://10.155.0.42/MVNOCareGateway/Notification/SendSMS.aspx" ,
+                        :partial => "send_sms"
+                      }     
 
   }
   

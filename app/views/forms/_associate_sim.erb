@@ -1,0 +1,23 @@
+<div><span class="label">Username:</span><input type="text" size="20" name="UserName" value="<%= session["UserName"] %>"></div>
+<div><span class="label">MSISDN:</span><input type="text" size="20" name="MSISDN" value="<%= session["MSISDN"] %>"></div>
+<div><span class="label">I.P.:</span><input type="text" size="20" name="Remote_ip_address" value="<%= session["Remote_ip_address"] %>"></div>
+<div><span class="label">Email:</span><input type="text" size="20" name="Email" value="<%= session["Email"] %>"></div>
+<div class="container">
+	<div class="field-column">
+		<span class="label">FlagMark:</span>
+		<input type="text" size="20" name="FlagMark" value="<%= session["FlagMark"] %>">
+	</div>
+	<div class="caption-column">
+		<span>&nbsp;(0 = non selezionato, 1 = selezionato)</span>
+	</div>
+</div>
+<div class="container">
+	<div class="field-column">
+		<span class="label">FlagPubl:</span>
+		<input type="text" size="20" name="FlagPubl" value="<%= session["FlagPubl"] %>">
+	</div>
+	<div class="caption-column">
+		<span>&nbsp;(0 = non selezionato, 1 = selezionato)</span>
+	</div>
+</div>
+<div><span class="label">&nbsp;</span><input type="submit" value="SUBMIT"></div>

@@ -21,6 +21,10 @@ class UrlConfig
                         :url => "http://10.155.0.42/MVNOCareGateway/Promotions/GetPromos.aspx" ,
                         :partial => "get_promos"
                       },
+    "Get Promo Tris Variants" => { 
+                        :url => "http://10.155.0.42/MVNOCareGateway/Promotions/GetVariants.aspx" ,
+                        :partial => "get_promo_tris_variants"
+                      },
     "Pre Registration" => { 
                         :url => "http://10.155.0.42/MVNOCareGateway/Auth/Preregistration.aspx" ,
                         :partial => "pre_registration"
